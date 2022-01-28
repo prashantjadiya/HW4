@@ -22,13 +22,13 @@ def test_sort():
 e, f, g, h, i = hello.lists()
 
 def test_split():
-    assert(e[0] == "Hoboken")
+    assert(e[0] == "Stevens")
     assert(e[1] == "is")
-    assert(e[2] == "awesome")
+    assert(e[2] == "Good")
 
 
 def test_slice():
-    assert(f=="wesome")
+    assert(f=="ood")
 
 
 def test_last_row():
@@ -44,7 +44,7 @@ def test_diagonal():
 def test_ord():
     x = [chr(x) for x in i]
     rec = "".join(x)
-    assert(rec == "Hoboken")
+    assert(rec == "Stevens")
     
 j, k, l, length, m, n = hello.numbers_and_strings()
 
