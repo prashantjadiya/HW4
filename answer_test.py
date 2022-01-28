@@ -24,11 +24,11 @@ e, f, g, h, i = answer.lists()
 def test_split():
     assert(e[0] == "Stevens")
     assert(e[1] == "is")
-    assert(e[2] == "Good")
+    assert(e[2] == "Awesome")
 
 
 def test_slice():
-    assert(f=="ood")
+    assert(f=="wesome")
 
 
 def test_last_row():
@@ -44,7 +44,7 @@ def test_diagonal():
 def test_ord():
     x = [chr(x) for x in i]
     rec = "".join(x)
-    assert(rec == "Stevens")
+    assert(rec == "Hoboken")
     
 j, k, l, length, m, n = answer.numbers_and_strings()
 
