@@ -25,9 +25,9 @@ def numbers_and_strings():
     m = 
 
     # Replace "Great" with "Good" in variable m and assign it to a new variable n
-    n = 
+    h = 
 
-    return x, y, z, length, m, n
+    return x, y, z, length, m, h
 
 
 def lists():
