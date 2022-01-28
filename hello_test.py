@@ -1,6 +1,6 @@
 import hello;
 
-a, b, c, d = dictionaries()
+a, b, c, d = hello.dictionaries()
 
 
 def test_fruit():
@@ -19,7 +19,7 @@ def test_sort():
     assert(d == ["age", "jobs", "name"])
     
     
-e, f, g, h, i = lists()
+e, f, g, h, i = hello.lists()
 
 def test_split():
     assert(e[0] == "Hoboken")
@@ -46,7 +46,7 @@ def test_ord():
     rec = "".join(x)
     assert(rec == "Hoboken")
     
-j, k, l, length, m, n = numbers_and_strings()
+j, k, l, length, m, n = hello.numbers_and_strings()
 
 
 def test_power():
