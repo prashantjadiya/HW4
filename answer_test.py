@@ -22,7 +22,7 @@ def test_sort():
 e, f, g, h, i = answer.lists()
 
 def test_split():
-    assert(e[0] == "Stevens")
+    assert(e[0] == "Hoboken")
     assert(e[1] == "is")
     assert(e[2] == "Awesome")
 
