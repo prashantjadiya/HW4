@@ -1,14 +1,5 @@
-# Autograding Example: Python
-This example project is written in Python, and tested with pytest.
+### The assignment due date is 4th february, 2022.
 
-### The assignment
-The tests are failing right now because the method isn't outputting the correct string. Fixing this up will make the tests green.
+You should edit the file "hello.py" and answer the questions asked.
+Please don't try to edit or rename the files.
 
-### Setup command
-`sudo -H pip3 install pytest`
-
-### Run command
-`pytest`
-
-### Notes
-- pip's install path is not included in the PATH var by default, so without installing via `sudo -H`, pytest would be unaccessible.
