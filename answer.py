@@ -24,7 +24,7 @@ def numbers_and_strings():
     # Concatenate variable y with string " is Great"
     m = 
 
-    # Replace "Great" with "Good" in variable m and assign it to a new variable n
+    # Replace "Great" with "Good" in variable m and assign it to a new variable h
     h = 
 
     return x, y, z, length, m, h
